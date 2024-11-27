@@ -74,6 +74,8 @@ public class Main {
         }
 
     }
+
+
     public  static  void PostgresVersion()
     {
         try(Session session = HibernateConfig.getSessionFactory().openSession())
